@@ -1,5 +1,11 @@
 html {
-  /* Variables tipográficas */
+  /* Font family*/
+  --font-1: "Merriweather"; 
+  --font-2: "Inter";
+
+
+  /* Variables typography */
+  --text-3xs: 8px;
   --text-2xs: 10px;
   --text-xs: 12px;
   --text-s: 14px;
@@ -12,13 +18,27 @@ html {
   --text-5xl: 48px;
   --text-6xl: 64px;
 
-  /* Escala aplicada */
+  /* Applied scale */
+  --text-note: var(--text-2xs);
   --text-caption: var(--text-xs);
-  --text-note: var(--text-x);
-  --text-base: var(--text-m);
+  --text-body: var(--text-m);
   --text-subheader: var(--text-2xl);
   --text-title: var(--text-3xl);
   --text-headline: var(--text-4xl);
   --text-display: var(--text-5xl);
   --text-jumbo: var(--text-6xl);
+}
+
+@media (max-width: 900px) {
+  html {
+      /* Applied scale */
+  --text-note: var(--text-3xs);
+  --text-caption: var(--text-2xs);
+  --text-body: var(--text-s);
+  --text-subheader: var(--text-m);
+  --text-title: var(--text-xl);
+  --text-headline: var(--text-2xl);
+  --text-display: var(--text-3xl);
+  --text-jumbo: var(--text-4xl);
+  }
 }

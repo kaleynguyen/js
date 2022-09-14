@@ -3,6 +3,7 @@
 @import url("variables/v-spacer.css");
 @import url("variables/v-grid.css");
 @import url("variables/v-zindex.css");
+@import url("variables/v-color.css");
 
 /* Base */
 @import url("base/reset.css");

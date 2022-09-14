@@ -1,7 +1,7 @@
 /* General tipografía */
 
 body {
-  font-family: sans-serif;
+  font-family: var(--font-1);
   line-height: 1.5;
 }
 
