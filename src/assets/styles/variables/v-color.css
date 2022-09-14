@@ -17,11 +17,11 @@ html {
     --primary-8: #1a2722;
 
 
-    --primary: var(--primary-6);
-    --secondary: var(--secondary-4);
+    --primary: var(--primary-5);
+    --primary-light: var(--secondary-1);
+    --secondary: var(--secondary-5);
     --secondary-light: var(--secondary-1);
 
     --link:  var(--secondary-8);
     --link-hover: var(--secondary-4);
 }
-
