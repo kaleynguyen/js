@@ -9,7 +9,13 @@ eleventyNavigation:
 
 <div class="col-12">
   <h1>What is Lending Club?</h1>
+
+  {% set ele = {'image': 'photo-3.png'} %}
+  {% include 'components/project.njk' %}
   <p>
     Hihiiiiiii
   </p>
+  {% for ele in lc %}
+    {% include 'components/project.njk'%}
+  {% endfor %}
 </div>
