@@ -4,11 +4,11 @@
 
     {% set navPages = collections.all | eleventyNavigation %}
     <div class="nav col-12">
-      {%- for elemento in navPages %}
-        <a href="{{ elemento.url | url }}"
-          {% if elemento.url == page.url %} class="active"{% endif %}
+      {%- for elem in navPages %}
+        <a href="{{ elem.url | url }}"
+          {% if elem.url == page.url %} class="active"{% endif %}
         >
-          {{ elemento.title }}
+          {{ elem.title }}
         </a>
       {%- endfor %}
     </div>
