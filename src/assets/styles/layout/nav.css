@@ -12,3 +12,8 @@
 .nav a.active {
   border-bottom: 2px solid;
 }
+
+.activate-darktheme {
+  background-color: var(--primary-7);
+  color: var(--secondary-light);
+}

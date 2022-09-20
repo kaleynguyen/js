@@ -1,5 +1,13 @@
+.text-project {
+    padding-top: var(--spacer-m);
+    height: min-content;
+    position: sticky;
+    top: 0;
+}
+
+
 @media (max-width: 500px) {
-    .text-order {
+    .text-project {
         order: -1;
     }
 }

@@ -1,13 +1,7 @@
 <div class="header">
 
   <div class="container grid">
-
-    <a href='/' class='header-logo'>
-      <img src='/assets/images/logo.svg' alt='KN'>
-    </a>
-    <a href='/' class='header-nav-icon'>
-      <img src='/assets/images/nav.svg' alt='KN'>
-    </a>
+    
     {% set navPages = collections.all | eleventyNavigation %}
     <div class="nav">
       {%- for elem in navPages %}

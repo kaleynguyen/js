@@ -21,4 +21,5 @@
 @import url("layout/footer.css");
 
 /* Pages */
-@import url('pages/lending-club.css')
+@import url('pages/lending-club.css');
+@import url('pages/home.css');
