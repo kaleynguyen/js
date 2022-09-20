@@ -3,3 +3,19 @@
   padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-m);
 }
+
+.header .container {
+  display: flex;
+}
+
+.header img {
+  display: block;
+}
+
+.header-logo {
+  width: 0.1vw;
+}
+
+.header-nav-icon {
+  margin-left: auto;
+}

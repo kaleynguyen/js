@@ -3,7 +3,7 @@
   text-decoration: none;
   font-weight: bold;
   margin-right: 10px;
-  display: inline-block;
+  display: none; /*remove for now*/
 }
 .nav a:hover {
   opacity: 0.7;
