@@ -9,7 +9,7 @@
 
 .home-title {
     margin-top: 0;
-    font-size: 2vw;
+    font-size: 3vw;
     color: var(--primary-6);
     display: block;
    
@@ -24,7 +24,7 @@
 
 .home-text{
     color: var(--primary-6);
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 0.5vw;
     height: min-content;
     border: 1px solid var(--primary-6);
@@ -33,7 +33,7 @@
 
 .activate-darktheme .home-text {
     color: var(--secondary-1);
-    font-size: 1.5vw;
+    font-size: 2vw;
     position: relative;
     padding-top: 0;
     height: min-content;
@@ -44,7 +44,7 @@
     text-decoration: none;
     color: var(--primary-6);
     position: relative;
-    font-size: 1.5vw;
+    font-size: 3vw;
     opacity: 0.9 !important;
     
 }
