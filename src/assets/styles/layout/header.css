@@ -18,15 +18,6 @@
   z-index: var(--z-index-logo);
 }
 
-.header-logo {
-  width: 3vw;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
 .header-nav-icon {
   margin-left: auto;
 }

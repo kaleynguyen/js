@@ -11,6 +11,9 @@
     margin-top: 0;
     font-size: 2vw;
     color: var(--primary-6);
+    display: block;
+   
+    
 }
 
 .activate-darktheme .home-title {
@@ -22,10 +25,10 @@
 .home-text{
     color: var(--primary-6);
     font-size: 1.5vw;
-    position: relative;
-    padding-top: 0;
+    padding: 0.5vw;
     height: min-content;
-    
+    border: 1px solid var(--primary-6);
+    border-radius: 0.4em;
 }
 
 .activate-darktheme .home-text {
@@ -34,6 +37,7 @@
     position: relative;
     padding-top: 0;
     height: min-content;
+    border: 1px solid var(--secondary-1);
 }
 
 .home-subheader {

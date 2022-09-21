@@ -5,6 +5,10 @@
     top: 0;
 }
 
+.lcPhoto {
+    display: flex;
+}
+
 
 @media (max-width: 500px) {
     .text-project {
