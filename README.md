@@ -1,6 +1,4 @@
-# Domestika 11ty
-
-A minimal 11ty starting point.
+A minimal 11ty starting point to build a profile / portfolio website. 
 
 ## Getting Started
 
