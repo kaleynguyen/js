@@ -1,18 +1,23 @@
 
 .avatar {
-    width: 150px;
+    width: 300px;
+    padding: 10px;
 }
 
 .card {
-    width: 400px;
+    width: 700px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5px auto;
 }
 
 .border-blue {
     border: 1px dotted var(--primary);
+}
+
+.text {
+    padding: 10px;
+    text-align: center;
 }
 
